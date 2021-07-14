@@ -11,7 +11,7 @@ public class Frame_size_6 extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container c = getContentPane();
         c.setLayout(null);
-        setSize(15,150);
+        setSize(136,150);
         b.setLocation(35,20);
         b.setSize(50,30);
 
@@ -20,7 +20,6 @@ public class Frame_size_6 extends JFrame {
             public void keyPressed(KeyEvent e) {
                 int x,y;
                 x = getWidth(); y = getHeight();
-                System.out.println(x +" " + y);
                 switch (e.getKeyCode()){
                     case KeyEvent.VK_F1:
                         setSize(x+10,y+10);
