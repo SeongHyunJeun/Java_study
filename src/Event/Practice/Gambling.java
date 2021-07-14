@@ -11,7 +11,6 @@ public class Gambling extends JFrame {
     JLabel []L = new JLabel[3];
     JLabel L1 = new JLabel("시작합니다.");
 
-
     void CreateJLabel(){
         for(int i=0; i<L.length; i++) {
             L[i] = new JLabel("0");
